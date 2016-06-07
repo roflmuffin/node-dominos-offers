@@ -54,4 +54,3 @@ retrieveVouchers(program.store).then (vouchers) ->
     console.log JSON.stringify(vouchers, null, 4)
   else if (program.readable)
     console.log humanOutput(vouchers)
-      # body...
